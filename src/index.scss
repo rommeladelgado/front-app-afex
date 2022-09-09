@@ -1,0 +1,34 @@
+$text-primary-color:  #494d50;
+$text-secondary-color: #868992;
+
+
+@font-face { font-family: Poppins;
+  src: url("../public/assets/poppins/Poppins-Regular.otf") format("opentype"); }
+
+body {
+  background-color: #f2f6f9;
+  margin: 0;
+  font-family: Poppins, serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.text-primary-color {
+  color: $text-primary-color;
+}
+
+.text-secondary-color {
+  color: $text-secondary-color;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
